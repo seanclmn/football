@@ -1,0 +1,26 @@
+.sidebar{
+
+  height: 500px;
+  width: 100px;
+  padding-left: 50px;
+
+  display: "inline-block";
+
+
+}
+
+.link{
+  width: 100px;
+  height: 15px;
+  margin-top: 10px;
+  display: "block";
+
+}
+
+.feed{
+  background-color: blue;
+  width: 400px;
+  height: 800px;
+  display: "inline-block";
+
+}

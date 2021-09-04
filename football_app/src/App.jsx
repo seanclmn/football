@@ -1,27 +1,23 @@
+import Route from 'react-router-dom'
+
+
 import './App.css';
+import Home from './components/home.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>
-          Football App
-        </h1>
-
-      </header>
-
-
-      <nav>
-
-
+      <header className="header">
 
         <div>
           <h1>
-            
+            Football App
           </h1>
         </div>
-      </nav>
 
+      </header>
+
+        <Home />
 
     </div>
   );
