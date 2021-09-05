@@ -11,7 +11,7 @@ function App() {
 
         <div>
           <h1>
-            Football App
+            Logo
           </h1>
         </div>
 

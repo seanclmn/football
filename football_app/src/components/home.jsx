@@ -9,8 +9,15 @@ function Home(){
         <div className="link">My Players</div>
       </div>
 
-
-      <Feed/>
+      <div className="feed_container">
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        <Feed />
+        
+      </div>
+      
 
     </div>
   )
