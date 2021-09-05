@@ -1,6 +1,12 @@
 .header{
+  position: fixed;
   padding-top: 0px;
-  background-color: red;
+  padding-left: 50px;
+  background-color: white;
   height: 100px;
   width: 100%;
+
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(221, 220, 220);
 }
