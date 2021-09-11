@@ -1,11 +1,10 @@
 .feed_container{
-  background-color: rgb(240, 236, 236);
-  width: 800px;
-  display: "inline-block";
 
+  width: 600px;
+
+  margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 
 
   
@@ -15,20 +14,20 @@
 .feed_piece{
 
   width: 600px;
-  height: 400px;
+  height: 600px;
   background-color: white;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(221, 220, 220);
+  margin-bottom: 50px;
 
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-top: 50px;
+  z-index: 0;
 }
 
 .feed_header{
+  position: relative;
+  width: 580px;
   height: 30px;
   padding-top: 10px;
   padding-left: 20px;
@@ -39,6 +38,8 @@
   border-bottom-style: solid;
   border-width: 1px;
   border-color: rgb(221, 220, 220);
+
+  z-index:0;
 }
 
 .feed_widget{
@@ -46,4 +47,36 @@
   height: 20px;
   margin-right: 20px;
 
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .feed_container {
+    margin-right: none;
+  }
+  .feed_piece {
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feed_container {
+    width: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  }
+
+
+  .feed_piece {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .feed_widget{
+    display: none;
+  
+  }
 }

@@ -1,0 +1,19 @@
+.searchbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 130px;
+    height: 30px;
+    border-radius: 2em;
+    border-style: none;
+    background-color: rgb(238, 236, 236);
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+
+
+.searchbar:focus{
+    outline: none;
+}
